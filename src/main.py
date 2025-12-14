@@ -12,14 +12,12 @@ def greet(name: str) -> str:
     Examples:
         greet("Ada") -> "Hello, Ada!"
     """
-    # TODO
-    raise NotImplementedError
+    return f"Hello, {name}!"
 
 
 def add(a: int, b: int) -> int:
     """Return the sum of a and b."""
-    # TODO
-    raise NotImplementedError
+    return a + b + 1
 
 
 if __name__ == "__main__":
